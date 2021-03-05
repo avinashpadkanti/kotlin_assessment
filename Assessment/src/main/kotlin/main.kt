@@ -23,6 +23,10 @@ fun calculateTotalWithOffers(cartItems: MutableMap<String, Int>) : Double{
     var appleCount = cartItems.get("apple")
     var orangeCount = cartItems.get("orange")
 
+    if(appleCount!= null && appleCount >= 5 && orangeCount != null && orangeCount>= 5){
+        return 0.0
+    }
+
     var appleCost : Double = appleCount?.times(.5)?.times(applePrice) ?: 0.0
     var orangeCost : Double = orangeCount?.times(0.6666666666666667)?.times(orangePrice) ?: 0.0
 
