@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MainKtTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-05T04:35:32" hostname="DESKTOP-80GA4Q3" time="0.107">
+<testsuite name="MainKtTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-05T04:43:36" hostname="DESKTOP-80GA4Q3" time="0.117">
   <properties/>
-  <testcase name="testMainHappyPath()" classname="MainKtTest" time="0.099"/>
+  <testcase name="testMainHappyPath()" classname="MainKtTest" time="0.098"/>
+  <testcase name="testMain_6_Oranges()" classname="MainKtTest" time="0.001"/>
   <testcase name="testMainWhiteSpaces()" classname="MainKtTest" time="0.002"/>
-  <testcase name="testMainCaps()" classname="MainKtTest" time="0.002"/>
+  <testcase name="testMain_4_Apples()" classname="MainKtTest" time="0.001"/>
+  <testcase name="testMainCaps()" classname="MainKtTest" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
