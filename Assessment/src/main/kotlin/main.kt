@@ -1,6 +1,5 @@
 fun main(args: Array<String>) {
-
-    println("Total price is: $"+"%.2f".format(calculateTotal(args)))
+    MyListener().setOrderListener(calculateTotal(args));
 }
 
 fun calculateTotal(args: Array<String>): Double {
